@@ -4,7 +4,7 @@
     --text-color: black;
     --secondary-text: #373636;
     --base-nav: #c09b6c;
-    --logo-color: #a46f4c;
+    --logo-color: #e9d1b2;
     --link-color: #b3e0f0;
     --primary-color: #3a435d;
     --text-highlight: #368cd1;
@@ -19,18 +19,13 @@
     --text-color: white;
     --secondary-text: whitesmoke;
     --base-nav: #f4e4c3;
-    --logo-color: #D5B893;
+    --logo-color: #a46f4c;
     --link-color: #768e96;
     --primary-color: #8390b6;
     --text-highlight: #78aad5;
     --title: #9ABDDC;
     --home-back: #617891;
     --members: #84b9e1;
-}
-
-#navbar__logo img{
-    width: 200px;
-    height: 150px;
 }
 
 * {
@@ -83,6 +78,11 @@ body{
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+}
+
+#navbar__logo img{
+    width: 200px;
+    height: 150px;
 }
 
 .navbar__menu {
