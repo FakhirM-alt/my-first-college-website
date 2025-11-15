@@ -407,6 +407,10 @@ body{
     margin-bottom: 50px;
 }
 
+.profile__developers h2{
+    text-align: center;
+}
+
 .profiles__section {
     float: left;
     padding-left: 50px;
@@ -481,10 +485,7 @@ body{
 
     .profile__developers {
         margin-top: 5px;
-    }
-
-    .profile__developers h2{
-        text-align: center;
+        padding-left: 1rem;
     }
 }
 
