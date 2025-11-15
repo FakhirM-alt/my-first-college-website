@@ -343,6 +343,12 @@ body{
     background-color: var(--home-back);
 }
 
+.home h1{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
 .home__container {
     display: flex;
     grid-template-columns: 0.5fr 0.5fr;
@@ -385,7 +391,7 @@ body{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-left: 30px;
+    margin-left: 1rem;
 }
 
 .PM__img img{
@@ -397,12 +403,17 @@ body{
 
 .profile__developers {
     float: left;
-    margin-left: 105px;
+    margin-left: 150px;
+    margin-bottom: 50px;
 }
 
 .profiles__section {
     float: left;
-    padding-left: 5%;
+    padding-left: 50px;
+}
+
+.roles{
+    font-weight: bold;
 }
 
 .DV__img{
@@ -411,8 +422,7 @@ body{
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 19px;
 }
 
 .DV__img img{
@@ -424,7 +434,7 @@ body{
 
 .centered img {
     position:absolute;
-    top:50%;
+    top:50%;    
     transform:translateY(-40%);
 }
 
@@ -472,6 +482,10 @@ body{
     .profile__developers {
         margin-top: 5px;
     }
+
+    .profile__developers h2{
+        text-align: center;
+    }
 }
 
 /*Statement*/
@@ -514,7 +528,7 @@ body{
     border: 1px solid var(--text-color);
     margin-top: -8rem;
     object-fit: contain;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 .review .box-container .box h3{
