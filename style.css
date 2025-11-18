@@ -369,7 +369,7 @@ body{
     padding: 25px;
     border: 2px solid;
     width: 500px;
-    background-color: var(--primary-color);
+    background-color: var(--base-variant);
 }
 
 .profile__PM h2{
