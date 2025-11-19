@@ -1,0 +1,119 @@
+:root{
+    --base-color: #e0f7fa;
+    --text-color: #2c3e50;
+    --headline-color: white;
+    --b-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.darkmode{
+    --base-color: #25344f;
+    --text-color: #3e8edd;
+    --headline-color: black;
+    --b-shadow: 0 8px 15px rgba(219, 216, 216, 0.446);
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: var(--base-color) ;
+    color: var(--text-color);
+}
+        
+.concert-grid {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+    
+h2.page-title {
+    color: var(--text-color);
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+        
+.card {
+    background-color: var(--text-color);
+    color: var(--headline-color);
+    border-radius: 20px;
+    width: 90%; 
+    max-width: 650px; 
+    box-shadow: var(--b-shadow);
+    padding: 20px;
+    display: flex; 
+    align-items: center;
+    transition: transform 0.2s;
+}
+        
+.card:hover {
+    transform: translateY(-5px);
+}
+        
+.card-image-container {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    margin-right: 20px;
+    background-color: #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--headline-color);
+}
+
+.card-info {
+    flex-grow: 1;
+}
+        
+.card-date {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #50e3c2;
+    margin-bottom: 5px;
+}
+        
+.card-title {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card-location {
+    font-size: 1em;
+    color: #ccc;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+        .card-status {
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .status-done {
+            color: #50e3c2;
+        }
+        .status-upcoming {
+            color: gold;
+        }
+        .status-tba {
+            color: orange;
+        }
+        
+        .detail-button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .detail-button:hover {
+            background-color: #3b74c4;
+        }
