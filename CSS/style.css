@@ -11,6 +11,8 @@
     --title: #e5f3e5;
     --home-back: #8aaacc;
     --members: #16456a;
+    --button-swiper: #617891;
+    --pangination-bullet: #25344F;
 }
 
 .darkmode{
@@ -26,6 +28,8 @@
     --title: #9ABDDC;
     --home-back: #617891;
     --members: #84b9e1;
+    --button-swiper: #3d547e;
+    --pangination-bullet: #617891;
 }
 
 * {
@@ -48,7 +52,7 @@ html {
     text-align: left;
     padding: 3rem;
     font-size: 50px;
-    color: var(--members);
+    color: var(--text-highlight);
 }
 
 .navbar {
@@ -642,7 +646,7 @@ html {
     font-size: 0.81rem;
     font-weight: 600;
     text-decoration: none;
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #25344F 0%, #617891 100%);
     box-shadow: 0 8px 15px rgba(99, 102, 241, 0.2);
     transition: all 0.3s ease;
 }
@@ -678,7 +682,7 @@ html {
     width: 15px;
     overflow: hidden;
     opacity: 1;
-    background: #8183F8;
+    background: var(--pangination-bullet);
 }
 
 .wrapper .swiper-pagination-bullet-active::before {
@@ -688,7 +692,7 @@ html {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #6366f1;
+    background: var(--button-swiper);
     transform: scaleX(0);
     transform-origin: left center;
     animation: autoplay-loading 5s linear forwards;
@@ -705,13 +709,13 @@ html {
 }
 
 .wrapper :where(.swiper-button-prev, .swiper-button-next) {
-    color: #6366f1;
+    color: var(--button-swiper);
     margin-top: -35px;
     transition: all 0.3s ease;
 }
 
 .wrapper :where(.swiper-button-prev, .swiper-button-next):hover {
-    color: #8b5cf6;
+    color: var(--pangination-bullet);
 }
 
 @media screen and (max-width: 768px) {
